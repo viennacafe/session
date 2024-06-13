@@ -1,0 +1,27 @@
+<html>
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<link href="./style.css" rel="stylesheet" type="text/css" />
+	<style>
+		p {
+			color: blue
+		}
+	</style>
+	<script>
+	$(document).ready(function(){
+		$('#top').on('click', function(){
+			alert('위로?');
+		});
+
+	});
+	</script>
+</head>
+<body>
+	<p>여기</p>
+	<a href="#bottom">아래로 이동</a>
+	<a href="">다음 페이지</a>
+	
+	<a id="top" href="#top">위로 이동</a>
+	<a href="./next.html" target="_self">다음 페이지</a>
+</body>
+</html>
